@@ -1,0 +1,13 @@
+// Test: Complex expressions
+fun compute(a: Int, b: Int, c: Int): Int {
+    return a * b + c
+}
+
+fun main(): Unit {
+    var result: Int = compute(2, 3, 4)
+    println(result)
+    
+    var x: Int = 10
+    var y: Int = x * 2 + 5
+    println(y)
+}

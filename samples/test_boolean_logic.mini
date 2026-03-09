@@ -1,0 +1,22 @@
+// Test: Boolean operations
+fun isPositive(n: Int): Boolean {
+    return n > 0
+}
+
+fun isNegative(n: Int): Boolean {
+    return n < 0
+}
+
+fun main(): Unit {
+    var x: Int = 5
+    var y: Int = 0 - 3
+    
+    var pos: Boolean = isPositive(x)
+    var neg: Boolean = isNegative(y)
+    
+    if (pos && neg) {
+        println(1)
+    } else {
+        println(0)
+    }
+}

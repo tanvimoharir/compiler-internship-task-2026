@@ -1,0 +1,14 @@
+// Test: If/else with boolean variables
+fun isEven(n: Int): Boolean {
+    return n % 2 == 0
+}
+
+fun main(): Unit {
+    var num: Int = 10
+    var even: Boolean = isEven(num)
+    if (even) {
+        println(1)
+    } else {
+        println(0)
+    }
+}

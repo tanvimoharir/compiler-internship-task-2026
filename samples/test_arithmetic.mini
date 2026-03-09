@@ -1,0 +1,14 @@
+// Test: Arithmetic operations
+fun add(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun multiply(a: Int, b: Int): Int {
+    return a * b
+}
+
+fun main(): Unit {
+    var x: Int = add(3, 4)
+    var y: Int = multiply(x, 2)
+    println(y)
+}

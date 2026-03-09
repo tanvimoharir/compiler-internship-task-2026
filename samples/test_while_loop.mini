@@ -1,0 +1,10 @@
+// Test: While loop
+fun main(): Unit {
+    var i: Int = 1
+    var sum: Int = 0
+    while (i <= 3) {
+        sum = sum + i
+        i = i + 1
+    }
+    println(sum)
+}

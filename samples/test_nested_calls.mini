@@ -1,0 +1,14 @@
+// Test: Nested function calls
+fun doubleNum(n: Int): Int {
+    return n * 2
+}
+
+fun tripleNum(n: Int): Int {
+    return n * 3
+}
+
+fun main(): Unit {
+    var temp: Int = tripleNum(5)
+    var result: Int = doubleNum(temp)
+    println(result)
+}

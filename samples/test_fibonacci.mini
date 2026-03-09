@@ -1,0 +1,22 @@
+// Test: Fibonacci (iterative version)
+fun fib(n: Int): Int {
+    if (n <= 1) {
+        return n
+    } else {
+        var a: Int = 0
+        var b: Int = 1
+        var i: Int = 2
+        while (i <= n) {
+            var temp: Int = a + b
+            a = b
+            b = temp
+            i = i + 1
+        }
+        return b
+    }
+}
+
+fun main(): Unit {
+    var result: Int = fib(6)
+    println(result)
+}
